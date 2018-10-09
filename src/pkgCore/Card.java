@@ -6,6 +6,10 @@ public class Card implements Comparable {
 
 	private eSuit eSuit;
 	private eRank eRank;
+	
+	public int getRemaining(Object eNum) {
+		|
+	}
 
 	public Card(pkgEnum.eSuit eSuit, pkgEnum.eRank eRank) {
 		super();
