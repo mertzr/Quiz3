@@ -10,10 +10,10 @@ public class Card implements Comparable {
 	public int getRemaining(Object eNum) {
 		//return number of particular suit or number depending on input
 		if (eNum instanceof eRank) {
-			return 
+			return iRankNbr();
 		}
 		else if (eNum instanceof eSuit)
-			return 12;
+			return iSuitNbr();
 	}
 
 	public Card(pkgEnum.eSuit eSuit, pkgEnum.eRank eRank) {
