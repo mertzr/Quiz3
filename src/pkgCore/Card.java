@@ -1,6 +1,6 @@
 package pkgCore;
 
-import pkgEnum.*;
+import pkgEnum.*; 
 
 public class Card implements Comparable {
 
